@@ -2,7 +2,7 @@
 [![Language](https://img.shields.io/badge/language-kotlin-orange.svg)](https://kotlinlang.org/)
 ![BUILD & RELEASE](https://github.com/StarHeartHunt/PRTS-Client-Kotlin/workflows/BUILD%20&%20RELEASE/badge.svg)
 # PRTS-Client-Kotlin
-this repo contains the source code for the official [prts.wiki android client](https://ak.mooncell.wiki/w/PRTS:Appclient)
+this repo contains the source code for the official [prts.wiki android client](http://ak.mooncell.wiki/w/PRTS:Appclient)
 ## build
 1. move your MiPush_SDK_Client_3_7_5.jar to /app/libs
 2. move your google-services.json to app/
