@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         "http://ak.mooncell.wiki/api.php?action=parse&format=json&page=%E6%A8%A1%E6%9D%BF%3AMFSidebarAutoEvents/App&disablelimitreport=1"
 
     private val checkUpdateUrl =
-        "http://ak.mooncell.wiki/images/wiki/merlin/client/update.json"
+        "http://ak.mooncell.wiki/images/client/android/update.json"
 
 
     var isFloatBallCreated: Boolean? = false
