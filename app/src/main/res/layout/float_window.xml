@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlContent"
+    android:layout_width="280dp"
+    android:layout_height="280dp"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_x" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:theme="@style/MyCheckBox"
+        android:text="@string/float_checkbox_state"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/ivFloatBallCheck"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/checkbox"
+        android:src="@drawable/ic_o" />
+
+    <WebView
+        android:id="@+id/float_webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/checkbox"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent" />
+
+    <wiki.fgo.app.ScaleImage
+        android:id="@+id/ivScale"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:src="@drawable/ic_scale" />
+</RelativeLayout>

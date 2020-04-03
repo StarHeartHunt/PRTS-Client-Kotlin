@@ -1,0 +1,12 @@
+*.iml
+.gradle
+local.properties
+.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+/app/google-services.json
+/app/release/
+/app/libs/MiPush_SDK_Client_3_7_5.jar
